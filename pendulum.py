@@ -2,7 +2,7 @@ import numpy as np
 import pygame
 from pygame.locals import *
 
-# 1 - Euler; 2 - RK4
+# 1 - Euler method; 2 - Runge–Kutta method
 method = 2
 x = 75 * np.pi / 180
 h = 0.05
